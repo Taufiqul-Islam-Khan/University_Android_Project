@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0eee0"
+    android:orientation="vertical"
+    tools:context="com.example.opus_coaching.JoinProcessActivity">
+
+    <include
+        android:id="@+id/simplePageToolBar"
+        layout="@layout/app_bar_layout"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C8CC9B"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Class Admission:"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/classNameConfirmView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/paidViewButton"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#AD86E686"
+            android:onClick="paidVersionJoinAction"
+            android:text="Full Course Paid Version"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="----------------------------OR----------------------------"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/freeJoinButton"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#93D393"
+            android:onClick="freeTrialJoinAction"
+            android:text="Join Free Trail Version"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

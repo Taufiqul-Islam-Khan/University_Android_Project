@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "65485730746",
+    "firebase_url": "https://opu-s-coaching.firebaseio.com",
+    "project_id": "opu-s-coaching",
+    "storage_bucket": "opu-s-coaching.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65485730746:android:0257ca3834ff6821536383",
+        "android_client_info": {
+          "package_name": "com.example.opus_coaching"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65485730746-8eoo1nje7samtpuv93iidqauigff8ev8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-VTwuxgq5oBTG-uFcH7m_JLN4cW-5O5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65485730746-8eoo1nje7samtpuv93iidqauigff8ev8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
